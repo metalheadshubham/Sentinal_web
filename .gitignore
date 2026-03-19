@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Vite / TypeScript cache
+*.tsbuildinfo
+.vite/
+
+# Replit internals — not needed outside Replit
+.replit-artifact/
+requirements.yaml
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS artefacts
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
